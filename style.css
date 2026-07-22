@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+h2{
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color: red;
+}
+nav li:last-child a{
+    background-color: red;
+    border-radius:5px ;
+    padding: 5px 10px;
+}
+nav li:last-child a:hover{
+    background:red;
+    color: black;
+}

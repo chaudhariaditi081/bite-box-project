@@ -34,3 +34,22 @@ nav li:last-child a:hover{
     background:red;
     color: black;
 }
+.hero{
+    height: 90vh;
+   background: url("images/banner.jpg") no-repeat center/cover ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+.hero button{
+    margin-top: 15px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero button:hover{
+    background-color: darkred;
+}
